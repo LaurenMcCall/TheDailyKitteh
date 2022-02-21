@@ -53,6 +53,17 @@ h3 {
   display: flex;
   align-items: flex-start;
   border-color: var(--turquoise);
+  padding-left: 2em;
+}
+.media-object {
+  margin-right: 1em;
+}
+.media-body {
+  flex: 1;
+}
+.media-heading {
+  margin: 0 0 0.5em;
+  justify-content: center;
 }
 /*DO I NEED THIS?
 /* section {
