@@ -29,6 +29,10 @@ h3 {
   color: var(--gray);
   font-weight: 900;
 }
+h4 {
+  font: 20px/ 1 'Nunito Sans', sans-serif;
+  color: var(--gray);
+}
 
 .menu {
   display: flex;
@@ -77,4 +81,8 @@ a.menuClass:hover {
 }
 a {
   color: black;
+}
+figure {
+  display: flex;
+  flex-direction: column;
 }
