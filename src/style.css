@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font: 40px / 1 'Playfair Display', serif;
+  font: 48px / 1 'Playfair Display', serif;
   font-weight: bold;
   color: var(--gray);
   text-align: center;
@@ -30,7 +30,7 @@ h3 {
   font-weight: 900;
 }
 h4 {
-  font: 20px/ 1 'Nunito Sans', sans-serif;
+  font: 21px/ 1 'Nunito Sans', sans-serif;
   color: var(--gray);
 }
 
@@ -43,7 +43,8 @@ h4 {
   list-style-type: none;
   font-weight: bold;
   font-size: medium;
-  padding: 5px;
+  padding-top: 6px;
+  padding-bottom: 9px;
 }
 .footer {
   display: flex;
@@ -53,19 +54,40 @@ h4 {
   padding: 15px;
   list-style-type: none;
 }
-.media {
+.image {
   display: flex;
-  align-items: flex-start;
+  height: 330px;
+  width: 210px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid var(--turquoise);
+  padding-bottom: 9px;
+}
+.image-header {
+  justify-content: flex-start;
+  margin: 8px;
+  margin-left: -11px;
+}
+.image-list {
+  margin-left: -42px;
+  margin-top: 3px;
+}
+.article {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
   border-color: var(--turquoise);
   padding-left: 2em;
 }
-.media-object {
+/* .media-object {
   margin-right: 1em;
-}
-.media-body {
+} */
+.article-body {
   flex: 1;
 }
-.media-heading {
+.article-heading {
   margin: 0 0 0.5em;
   justify-content: center;
 }
@@ -81,8 +103,4 @@ a.menuClass:hover {
 }
 a {
   color: black;
-}
-figure {
-  display: flex;
-  flex-direction: column;
 }
