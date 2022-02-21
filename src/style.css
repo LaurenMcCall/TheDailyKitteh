@@ -49,6 +49,21 @@ h3 {
   padding: 15px;
   list-style-type: none;
 }
+.media {
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--turquoise);
+}
+/*DO I NEED THIS?
 /* section {
   display: flex;
 } */
+a.menuClass {
+  color: var(--white);
+}
+a.menuClass:hover {
+  color: var(--white);
+}
+a {
+  color: black;
+}
