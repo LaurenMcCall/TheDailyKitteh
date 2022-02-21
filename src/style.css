@@ -1,5 +1,5 @@
 :root {
-  font: 14px / 1 'Cantarell', sans-serif;
+  font: 15px / 1 'Cantarell', sans-serif;
   color: black;
   --light-blue: #e2f4f4;
   --turquoise: #00c6db;
@@ -19,9 +19,10 @@ body {
 }
 
 h1 {
-  font: 36px / 1 'Playfair Display', serif;
+  font: 40px / 1 'Playfair Display', serif;
   font-weight: bold;
   color: var(--gray);
+  text-align: center;
 }
 h3 {
   font: 22px / 1 'Nunito Sans', sans-serif;
@@ -32,17 +33,20 @@ h3 {
 .menu {
   display: flex;
   justify-content: space-evenly;
+  /* flex-shrink: inherit; */
   background-color: var(--turquoise);
   color: var(--white);
   list-style-type: none;
   font-weight: bold;
   font-size: medium;
+  padding: 5px;
 }
 .footer {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--stone);
   font-weight: bold;
+  padding: 15px;
   list-style-type: none;
 }
 /* section {
