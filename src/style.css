@@ -21,6 +21,11 @@ body {
   background-color: var(--light-blue);
 }
 
+footer {
+  position: sticky;
+  top: 95vh;
+}
+
 h1 {
   font: 48px / 1 'Playfair Display', serif;
   font-weight: bold;
@@ -36,9 +41,12 @@ h4 {
   font: 21px/ 1 'Nunito Sans', sans-serif;
   color: var(--gray);
 }
+p {
+  margin-right: 25px;
+}
 footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--stone);
   font-weight: bold;
   padding: 2vh 30vh;
@@ -116,11 +124,11 @@ a {
 .main {
   display: flex;
 }
-.content {
+/* .content {
   min-height: 100%;
   margin-bottom: -50px;
 }
 .footer,
 .push {
   height: 50px;
-}
+} */
