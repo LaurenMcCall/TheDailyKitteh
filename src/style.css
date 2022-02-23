@@ -41,7 +41,7 @@ footer ul {
   justify-content: space-between;
   background-color: var(--stone);
   font-weight: bold;
-  padding: 4vh 50vh;
+  padding: 2vh 30vh;
   list-style-type: none;
 }
 /* .outer-container {
@@ -70,7 +70,7 @@ footer ul {
   flex-direction: column;
   justify-content: center;
   border: 2px solid var(--turquoise);
-  padding-bottom: 9px;
+  padding-bottom: 18px;
 }
 .image-header {
   justify-content: flex-start;
@@ -82,24 +82,24 @@ footer ul {
   margin-top: 3px;
 }
 
-.article {
+/* .article {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   border-color: var(--turquoise);
   padding-left: 2em;
-}
+} */
 /* .media-object {
   margin-right: 1em;
 } */
-.article-body {
+/* .article-body {
   flex: 1;
-}
-.article-heading {
+} */
+/* .article-heading {
   margin: 0 0 0.5em;
   justify-content: center;
-}
+} */
 /*DO I NEED THIS?
 /* section {
   display: flex;
@@ -115,4 +115,12 @@ a {
 }
 .main {
   display: flex;
+}
+.content {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
 }
